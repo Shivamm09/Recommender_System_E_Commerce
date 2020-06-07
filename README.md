@@ -1,1 +1,2 @@
 # Recommender_System_E_Commerce
+The aim of this project was to gain a better understanding of recommender systems. In particular item-item colaborative filtering. I used the an ecommerce data, to analyze which products go together and produced 2 recommender systems, one which provides complimentary products to the product just bought/ in the the basket (for example if I bought paper, would recommend pencils). Then for the whole basket recommendations (for example, if I bought onions, potatos, ketchup, then I would recommend burger buns). 
