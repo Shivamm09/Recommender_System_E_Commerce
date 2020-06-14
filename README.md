@@ -123,6 +123,11 @@ Similarity measure:
 There are various types of similarity measurements that can be used to determine how related two products are: for ex there is pearson similarity and cosine. I tested the recommender system using these measurements and they gave bad results and the reason for this is because the two vectors which I place two find the similarities between are filled with zeros and ones, and it is very much possible in the dataset that there are two products which are not bought that frequently and have been bought once together (in the batch of 588 basket) and the measurement would say that these products are very highly related, when that is not necessarily the case. Therefore the measurements which I use are jaccard similarity and frequency; this is because these two metrics are better used when working with vectors with zeros and ones. 
 
 
+The create similarity matrix method initializes a matrix with the products as the rows and the columns with values of Nan. Then using iterating through all pairs of columns in the data (which was provided by the Data class), putting in values of the similarity between the two vectors. 
+
+
+
+
 
 
 
